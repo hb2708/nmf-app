@@ -107,6 +107,10 @@ const MyDataScreen: NavStatelessComponent = () => {
 
     try {
       const exportFile = new File(Paths.cache, "my-data-nmf-earth.json");
+      // Delete existing file if it exists to avoid "already exists" error
+      if (exportFile.exists) {
+        exportFile.delete();
+      }
       exportFile.create();
       exportFile.write(data);
       await Sharing.shareAsync(exportFile.uri);
