@@ -3,7 +3,6 @@ module.exports = function (api) {
   return {
     presets: ["babel-preset-expo"],
     plugins: [
-      "react-native-reanimated/plugin",
       [
         "module-resolver",
         {
@@ -24,8 +23,8 @@ module.exports = function (api) {
     overrides: [{
       "plugins": [
         ["@babel/plugin-transform-private-methods", {
-        "loose": true
-      }]
+          "loose": true
+        }]
       ]
     }]
   };
