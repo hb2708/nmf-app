@@ -31,7 +31,7 @@ const ListItemSwitch: React.FC<Props> = ({
 
   return (
     <View style={containerStyle}>
-      <Text.Secondary style={styles.text}>{title}</Text.Secondary>
+      <Text.Secondary>{title}</Text.Secondary>
       <Switch value={value} onChange={onChange} />
     </View>
   );

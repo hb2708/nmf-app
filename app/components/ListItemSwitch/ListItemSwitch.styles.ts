@@ -7,10 +7,8 @@ export default StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    flex: 1,
-  },
-  text: {
     paddingVertical: 18,
+    flex: 1,
   },
   topLine: {
     borderTopColor: Colors.grey10,
