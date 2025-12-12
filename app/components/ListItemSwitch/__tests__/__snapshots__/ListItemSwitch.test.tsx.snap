@@ -10,6 +10,7 @@ exports[`<ListItemSwitch /> ListItem renders correctly with both topLine and bot
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "space-between",
+        "paddingVertical": 18,
       },
       {
         "borderTopColor": "#F0F0F0",
@@ -23,11 +24,7 @@ exports[`<ListItemSwitch /> ListItem renders correctly with both topLine and bot
   }
 >
   <RCTText
-    style={
-      {
-        "paddingVertical": 18,
-      }
-    }
+    style={{}}
     testID="Secondary"
   >
     Germany
@@ -49,6 +46,7 @@ exports[`<ListItemSwitch /> ListItem renders correctly with bottomLine 1`] = `
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "space-between",
+        "paddingVertical": 18,
       },
       {
         "borderBottomColor": "#F0F0F0",
@@ -58,11 +56,7 @@ exports[`<ListItemSwitch /> ListItem renders correctly with bottomLine 1`] = `
   }
 >
   <RCTText
-    style={
-      {
-        "paddingVertical": 18,
-      }
-    }
+    style={{}}
     testID="Secondary"
   >
     Germany
@@ -84,6 +78,7 @@ exports[`<ListItemSwitch /> ListItem renders correctly with topLine 1`] = `
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "space-between",
+        "paddingVertical": 18,
       },
       {
         "borderTopColor": "#F0F0F0",
@@ -93,11 +88,7 @@ exports[`<ListItemSwitch /> ListItem renders correctly with topLine 1`] = `
   }
 >
   <RCTText
-    style={
-      {
-        "paddingVertical": 18,
-      }
-    }
+    style={{}}
     testID="Secondary"
   >
     Germany
@@ -119,16 +110,13 @@ exports[`<ListItemSwitch /> render 1`] = `
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "space-between",
+        "paddingVertical": 18,
       },
     ]
   }
 >
   <RCTText
-    style={
-      {
-        "paddingVertical": 18,
-      }
-    }
+    style={{}}
     testID="Secondary"
   >
     Germany
