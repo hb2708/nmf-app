@@ -10,7 +10,6 @@ export default StyleSheet.create({
     paddingVertical: 18,
     flex: 1,
   },
-  text: {},
   topLine: {
     borderTopColor: Colors.grey10,
     borderTopWidth: 1.6,
